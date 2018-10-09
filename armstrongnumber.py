@@ -5,7 +5,7 @@ def armstrong_number(x):
     while x>0:
         digit=x%10
         sum=digit**3+sum
-        x=x//10
+        x=x//10              #because we have to cube each number
     print(sum)
     if sum==num:
        print(" Armstrong number")
