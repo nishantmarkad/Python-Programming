@@ -1,16 +1,13 @@
-import random
-game_start = input("Would you like to roll the dice?")
+#OUTCOME OF ROLLING DICE
+#NISHANT MARKAD
+#DIV-M,ROLL NO-39
 
-def dice_roll():
-    print("Your number is: " + str(random.randint(1,6)))
-    global play_again
-    play_again = input("Would you like to play again?")
 
-if game_start == "yes":
-    dice_roll()
-    while play_again == "yes":
-        dice_roll()
-elif game_start == "no":
-    print("Game Over")
-else:
-    print("Input not recognized")
+from random import randint as rt           #import randint
+def game(dice,faces):                      #function defining
+    result=0
+    for roll in range (0,faces):           #for loop
+        result+=rt(1,faces)
+    return result
+result=game(2,6)
+print(result)
