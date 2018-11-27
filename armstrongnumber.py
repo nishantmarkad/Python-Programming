@@ -3,7 +3,7 @@
 #DIV-M,ROLL NO-39
 
 
-def armstrong_number(x):
+def armstrong_number(x):     #function called
     sum=0
     num=x 
     while x>0:
