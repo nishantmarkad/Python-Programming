@@ -1,3 +1,8 @@
+#TEMPERATURE SCALE
+#NISHANT MARKAD
+#DIV-M,ROLL NO-39
+
+
 x=int(input("Enter temperature:"))                       #input from user
 y=input("is it in 'celcius' or 'farenhite'")
 if y is 'celsius':                                       #if-else statement
