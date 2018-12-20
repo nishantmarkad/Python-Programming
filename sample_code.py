@@ -1,7 +1,7 @@
 #course project
 
 
-from easygui import diropenbox, buttonbox
+from easygui import *
 import glob
 state = True
 j=0
